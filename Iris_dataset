@@ -1,0 +1,17 @@
+import pandas as pd
+iris = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
+
+
+def sepal_sum(sepal_length,sepal_width):
+  '''
+  add sepal_length and sepal_width to produce the sepal_sum
+  Inputs: sepal_length, sepal_width
+  Output: sepal_sum
+  '''
+
+  return sepal_length + sepal_width
+
+
+iris["sepal_sum"] = sepal_sum (iris["sepal_length"], iris["sepal_width"])
+
+iris.head() 
