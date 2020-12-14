@@ -11,7 +11,9 @@ def sepal_sum(sepal_length,sepal_width):
 
   return sepal_length + sepal_width
 
-
+'''
+add a sepal sum comulmn to display sum
+'''
 iris["sepal_sum"] = sepal_sum (iris["sepal_length"], iris["sepal_width"])
 
 iris.head() 
