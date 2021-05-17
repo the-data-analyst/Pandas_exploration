@@ -4,7 +4,7 @@ iris = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/maste
 
 def sepal_sum(sepal_length,sepal_width):
   '''
-  add sepal_length and sepal_width to produce the sepal_sum
+  add sepal_length and sepal_width to produce the sepal_sum calculated column
   Inputs: sepal_length, sepal_width
   Output: sepal_sum
   '''
